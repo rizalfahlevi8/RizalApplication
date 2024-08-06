@@ -26,6 +26,7 @@ Partial Class Form1
         Me.btnVariabel = New System.Windows.Forms.Button()
         Me.btnDataTypes = New System.Windows.Forms.Button()
         Me.Button1 = New System.Windows.Forms.Button()
+        Me.Button2 = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'go
@@ -65,11 +66,21 @@ Partial Class Form1
         Me.Button1.Text = "Button1"
         Me.Button1.UseVisualStyleBackColor = True
         '
+        'Button2
+        '
+        Me.Button2.Location = New System.Drawing.Point(509, 333)
+        Me.Button2.Name = "Button2"
+        Me.Button2.Size = New System.Drawing.Size(135, 83)
+        Me.Button2.TabIndex = 4
+        Me.Button2.Text = "Button2"
+        Me.Button2.UseVisualStyleBackColor = True
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 20.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.btnDataTypes)
         Me.Controls.Add(Me.btnVariabel)
@@ -84,4 +95,5 @@ Partial Class Form1
     Friend WithEvents btnVariabel As Button
     Friend WithEvents btnDataTypes As Button
     Friend WithEvents Button1 As Button
+    Friend WithEvents Button2 As Button
 End Class
